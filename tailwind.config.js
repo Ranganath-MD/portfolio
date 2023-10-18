@@ -53,7 +53,7 @@ module.exports = {
         },
       },
       gridTemplateColumns: {
-        'autofill': "repeat(auto-fill, minmax(100px, 1fr))"
+        'autofill': "repeat(auto-fill, minmax(80px, 1fr))"
       },
       borderRadius: {
         lg: "var(--radius)",

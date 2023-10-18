@@ -6,6 +6,7 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { Project, siteConfig } from "@/data/site";
+import Link from "next/link";
 
 const ProjectCard: React.FC<Project> = ({ ...props }) => {
   return (
@@ -61,14 +62,19 @@ export const Projects = () => {
     <section className="mt-12">
       <h1 className="text-3xl font-bold mb-6">Side Projects</h1>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
-        {
-          projects?.map((project, i) => (
-            <ProjectCard key={i} {...project} />
-          ))
-        }
-
+        {projects?.map((project, i) => (
+          <ProjectCard key={i} {...project} />
+        ))}
+        <Card className="grid place-items-center p-2">
+          <Link
+            href={`${siteConfig.links.github}?tab=repositories`}
+            target="_blank"
+            rel="noreferrer"
+          >
+            Find more on Github {"->"}
+          </Link>
+        </Card>
       </div>
-      
     </section>
-  )
+  );
 }
