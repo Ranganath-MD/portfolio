@@ -4,7 +4,7 @@ export const siteConfig = {
   url: "",
   ogImage: "",
   description:
-    "A Software Developer based in Bengaluru, specialized mostly in Javascript and React. I am an accomplished web developer with a strong background in building and maintaining client websites. My core technologies include HTML, CSS, Sass, JavaScript, React.js and Next JS, which I employ to create responsive and visually engaging web solutions. In addition to my primary skill set, I am well-versed in various languages, platforms, frameworks, and content management systems, including JavaScript, Gatsby, Node JS, Graph-QL, Mongo DB and Strapi. This adaptability enables me to tackle a wide spectrum of projects.",
+    "A Software Developer based in Bengaluru, specialized mostly in Javascript and React. I am an accomplished web developer with a strong background in building and maintaining client websites. My core technologies include HTML, CSS, Sass, JavaScript, React.js and Next JS, which I employ to create responsive and visually engaging web solutions. In addition to my primary skill set, I am well-versed in various languages, platforms, frameworks, and content management systems, including JavaScript, Gatsby, Node JS, Graph-QL and Strapi. This adaptability enables me to tackle a wide spectrum of projects.",
   links: {
     linkedin: "https://www.linkedin.com/in/ranganathmd/",
     github: "https://github.com/Ranganath-MD",

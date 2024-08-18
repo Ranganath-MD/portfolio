@@ -15,7 +15,9 @@ export const TechSection = () => {
         <Icons.graphql className="w-14 h-14 p-2 hover:scale-110" />
         <Icons.scss className="w-14 h-14 p-2 hover:scale-110" />
         <Icons.redux className="w-14 h-14 p-2 hover:scale-110" />
-        <Icons.mongodb className="w-14 h-14 p-2 hover:scale-110" />
+        <Icons.tailwind className="w-14 h-14 p-2 hover:scale-110" />
+        <Icons.gitHub className="w-14 h-14 p-2 hover:scale-110" />
+        <Icons.rquery className="w-14 h-14 p-2 hover:scale-110" />
       </div>
     </section>
   )

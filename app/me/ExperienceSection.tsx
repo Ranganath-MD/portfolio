@@ -16,6 +16,9 @@ export const Experience = () => {
           <span className={style.org}>@ Publicis Sapient</span>
           <h3 className={style.title}>Senior Associate Experience Engineer, L1</h3>
           <p className={style.desc}>
+            Working with client for their conference web application.
+            I create responsive, accessible, and performant user interfaces. Responsible for implementing complex UI components and interactions and optimize front-end performance and loading times.
+            I Work closely with UX designers to implement designs accurately and efficiently and ensure the UI works consistently across various browsers and devices, addressing any compatibility issues.
           </p>
         </li>
         <li className={style.listStyle}>
@@ -45,8 +48,8 @@ export const Experience = () => {
           <span className={style.org}>@ Molecular Connections</span>
           <h3 className={style.title}>Scientific Data Analyst</h3>
           <p className={style.desc}>
-            Worked with a client to provide high-quality data-driven solutions to clients in the life sciences and healthcare sectors. 
-            Used natural language processing and text mining techniques to extract valuable information from scientific texts, patents, or other textual data. 
+            Worked with a client to provide high-quality data-driven solutions to clients in the life sciences and healthcare sectors.
+            Used natural language processing and text mining techniques to extract valuable information from scientific texts, patents, or other textual data.
             Ensuring data quality and maintaining high standards of scientific integrity
           </p>
         </li>
